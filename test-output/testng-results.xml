@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48331" started-at="2021-09-27T14:00:57 IST" finished-at="2021-09-27T14:01:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48331" started-at="2021-09-27T14:00:57 IST" finished-at="2021-09-27T14:01:46 IST">
+      <class name="com.Urban.Runner.TestRunner">
+        <test-method status="PASS" signature="beforeAllTest()[pri:0, instance:com.Urban.Runner.TestRunner@62230c58]" name="beforeAllTest" is-config="true" duration-ms="23329" started-at="2021-09-27T14:00:58 IST" finished-at="2021-09-27T14:01:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTest -->
+        <test-method status="PASS" signature="popup(java.lang.String,java.lang.String)[pri:0, instance:com.Urban.Runner.TestRunner@62230c58]" name="popup" duration-ms="22451" started-at="2021-09-27T14:01:21 IST" data-provider="getdata" finished-at="2021-09-27T14:01:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiruthika@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.Urban.Runner.TestRunner@62230c58]" name="closebrowser" is-config="true" duration-ms="2274" started-at="2021-09-27T14:01:43 IST" finished-at="2021-09-27T14:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Urban.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
