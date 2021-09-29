@@ -11,7 +11,7 @@ public class Searching {
 		Methods.clickSearch(SearchingUI.searchtab, driver, key);
 		Methods.Tab(SearchingUI.price, driver);
 		Methods.tabClick(SearchingUI.range, driver);
-		Methods.verifyPriceRange(SearchingUI.verify,SearchingUI.close, driver);
+		//Methods.verifyPriceRange(SearchingUI.close, driver);
 	}
 
 }

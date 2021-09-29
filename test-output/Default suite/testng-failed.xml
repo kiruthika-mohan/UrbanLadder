@@ -6,8 +6,7 @@
       <class name="com.Urban.Runner.TestRunner">
         <methods>
           <include name="beforeAllTest"/>
-          <include name="testDeals"/>
-          <include name="closebrowser"/>
+          <include name="testSearching" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.Urban.Runner.TestRunner -->
     </classes>

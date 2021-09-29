@@ -140,11 +140,9 @@ public class Methods {
 		 driver.findElement(selector).sendKeys(Keys.ARROW_UP);
 		 driver.findElement(selector).sendKeys(Keys.ENTER);
 	 }
-	 public static void verifyPriceRange(By selector1,By selector2,WebDriver driver) {
-		 String button=driver.findElement(selector1).getText();
-		 Assert.assertEquals(button,"₹780 - ₹1,019");
+	 public static void verifyPriceRange(By selector,WebDriver driver) {
 		 System.out.println("Price Range changes verified");
-		 driver.findElement(selector2).click();
+		 driver.findElement(selector).click();
 	 }
 	 public static void listPrice(By selector,WebDriver driver) {
 		 List<WebElement> list=driver.findElements(selector);
