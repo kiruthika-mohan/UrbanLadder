@@ -28,8 +28,13 @@ public class Methods {
 		driver.manage().timeouts().implicitlyWait(wait, TimeUnit.SECONDS);
 	}
 	public static void clicking(By selector,WebDriver driver) throws InterruptedException {
+		try {
 		driver.findElement(selector).click();
 		Thread.sleep(1500L);
+		}
+		catch(Exception e) {
+			System.out.println(String.format("Element %s doesnt exist", selector));
+		}
 	}
 	 public static boolean Tab(By selector,WebDriver driver) {//tab
 	 Actions actions = new Actions(driver);
